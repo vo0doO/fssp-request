@@ -40,7 +40,7 @@ fssp(data, function(result){
 
 ## Лицензия
 
-[MIT](LICENSE)
+[ISC](LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/fresh.svg
 [npm-url]: https://npmjs.org/package/fresh
