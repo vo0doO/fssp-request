@@ -1,0 +1,31 @@
+{
+  "name": "fssp-request",
+  "version": "1.0.0",
+  "description": "Модуль интеграции с сервисом ФССП (Федеральная служба судебных приставов).",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stanislavkovin/fssp-request.git"
+  },
+  "keywords": [
+    "FSSP",
+    "ФССП"
+  ],
+  "author": "Kovin Stanislav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanislavkovin/fssp-request/issues"
+  },
+  "files": [
+    "HISTORY.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "homepage": "https://github.com/stanislavkovin"
+}
