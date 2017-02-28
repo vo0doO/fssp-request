@@ -14,7 +14,7 @@ $ npm install fssp-request
 var fssp = require('fssp-request')
 ```
 
-### fresh(data, callback)
+### fssp(data, callback)
 
  __data__ - JSON массив с параметрами:  
  
