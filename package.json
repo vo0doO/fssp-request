@@ -1,6 +1,6 @@
 {
   "name": "fssp-request",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Модуль интеграции с сервисом ФССП (Федеральная служба судебных приставов).",
   "dependencies": {
     "request": "^2.79.0"

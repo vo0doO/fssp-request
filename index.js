@@ -5,11 +5,11 @@ module.exports = fssp;
 function fssp(data, callback) {
 
     var url = "https://api.fssprus.ru/api/search?region_id="
-        + data.region + "&first_name="
-        + data.name + "&last_name="
-        + data.surname + "&date="
-        + data.birthday + "&type=form&patronymic="
-        + data.patronymic + "&udid=&ver=11";
+        + encodeURIComponent(data.region) + "&first_name="
+        + encodeURIComponent(data.name) + "&last_name="
+        + encodeURIComponent(data.surname) + "&date="
+        + encodeURIComponent(data.birthday) + "&type=form&patronymic="
+        + encodeURIComponent(data.patronymic) + "&udid=&ver=11";
 
     var list = [];
     sendToFssp(data, list, url, function (response) {
